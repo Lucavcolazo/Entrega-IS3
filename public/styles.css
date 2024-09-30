@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el body llene toda la altura de la ventana */
+}
+
+/* Título */
+h1 {
+    text-align: center; /* Centrar el título */
+    background-color: #eaeaea; /* Fondo más claro */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para subtítulos */
+h2 {
+    color: #2c3e50;
+}
+
+/* Lista de videos */
+#videoList {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los videos se organicen en filas */
+    justify-content: center; /* Centrar los elementos en la fila */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #2980b9;
+}
+
+/* Estilos para el reproductor de video */
+video {
+    display: block;
+    margin: 20px auto; /* Centrando el reproductor */
+    border: 2px solid #2c3e50;
+}
+
+/* Estilos para el formulario de carga */
+form {
+    margin-bottom: 20px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de input y botón */
+input[type="file"] {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: right; /* Alinear a la derecha */
+    color: #666; /* Tono de gris */
+    margin-top: auto; /* Empuja el footer hacia abajo */
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+    padding: 10px; /* Espaciado interno */
+    background-color: #eaeaea; /* Fondo claro similar al título */
+    border-radius: 0 0 5px 5px; /* Bordes redondeados en la parte inferior */
+    width: 100%; /* Ancho completo */
+}
